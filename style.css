@@ -55,6 +55,14 @@ table {
       font-family: Arial, Helvetica, sans-serif;
   }
 
+  footer{
+      font-size: .80em;
+  }
+
+  .content-header{
+      font-weight: bold;
+      padding-bottom: .6em;
+  }
 /*Mobile View Point*/
 @media (max-width: 700px) {
     body{
@@ -124,7 +132,10 @@ table {
         font-size: 18px;
     }
   
-    
+    .resource-links{
+        width: 100%;
+        text-align: center;
+    }
 }
 
 /*Desktop View Point*/
@@ -204,4 +215,8 @@ table {
       padding-bottom: 30px;
       font-size: 18px;
   }
+  .resource-links{
+    width: 100%;
+    text-align: center;
+}
 }
