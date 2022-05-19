@@ -64,71 +64,60 @@ table {
       padding-bottom: .6em;
   }
 /*Mobile View Point*/
+
 @media (max-width: 700px) {
     body{
         background-color: rgb(255, 247, 238);
     }
     .navbar-container {
-        width: 100%;
-        background-color: #333;
-        color: white;
-        margin: 0 auto;
-        text-align: center;
-        padding: 15px;
+     display: none;
     }
   
-    .navbar-links li a {
-        text-decoration: none;
-        color: white;
-        padding: 10px;
-    }
-  
-    .navbar-links li {
-        display: inline-block
-    }
-  
-    .active {
-        background-color: rgb(0, 211, 141);
-      
-  
-    }
-  
-  
-    .title-logo-container {
-        background-color: rgb(34, 34, 34);
-        padding-left: 10px;
-        display: flex;
-    }
-  
-    .title-bar-text{
-        color: white;
-        display: flex;
-        font-size: 1.5em;
-        margin-left: 12px;
-        margin-top: 11px;
-        
-        
-        
-    }
+
+  .title-logo-container{
+      z-index: 99;
+      position: fixed;
+      width: 100%;
+      background-color: rgb(34, 34, 34);
+
+
+  }
+
+  .title-logo-container img {
+      float: right;
+      position: relative;
+      margin-right: .5em;
+  }
+
+  .title-logo-container p {
+      color: white;
+      font-size: 1.5em;
+      float: right;
+      position: relative;
+      margin-right: .6em;
+      margin-top: .4em;
+  }
+     
   
     .content-images{
         float: left;
         position: relative;
         margin-right: 15px;
-  
+        padding-top: 5em;
   
     }
   
     .content-paragraph{
          position: relative;
          line-height: 1.5em;
+         padding-top: 5em;
   
     }
   
     .content-container{
+        
         width: 100%;
-        padding-top: 10px;
-        padding-bottom: 30px;
+        padding-bottom: 1em;
         font-size: 18px;
     }
   
@@ -179,22 +168,26 @@ table {
       margin: 10px auto;
   }
 
+.dragon{
+    height: 3em;
+    width: 4em;
+    margin-left: -.5em;
+}
+  .title-logo-container{
+   background-color: rgb(34, 34, 34);
+   width: 100%;
+   padding: 1em;
+   padding-bottom: 2.25em;
 
-  .title-logo-container {
-      background-color: rgb(34, 34, 34);
-      padding-left: 10px;
-      display: flex;
-  }
 
-  .title-bar-text{
-      color: white;
-      display: flex;
-      font-size: 1.5em;
-      margin-left: 12px;
-      margin-top: 11px;
-      
-      
-  }
+}
+
+.title-logo-container p {
+ color: white;
+ font-size: 1.5em;
+ margin-left: 2.8em;
+ margin-top: -1.7em;
+}
 
   .content-images{
       float: left;
@@ -211,12 +204,26 @@ table {
   }
 
   .content-container{
-      padding-top: 10px;
-      padding-bottom: 30px;
-      font-size: 18px;
+      margin-top: 2em;
+      padding-bottom: 2em;
+      font-size: 1.1em;
   }
   .resource-links{
     width: 100%;
     text-align: center;
+}
+
+.side-nav{
+    float: left;
+    background-color: rgb(0, 129, 112);
+    height: 900px
+}
+.side-nav li{
+    color: white;
+    font-size: 18px;
+    line-height: 2em;
+    border: rgb(59, 59, 59) 1px solid;
+    text-align: center;
+    padding-right: 10px;
 }
 }
