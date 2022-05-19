@@ -96,12 +96,7 @@ table {
   
     }
   
-    .fixed-width {
-        width: 1000px;
-        border: 1px solid rgba(0, 0, 0, 0);
-        margin: 10px auto;
-    }
-  
+
   .dragon{
       height: 4em;
       width: 5em;
@@ -125,11 +120,30 @@ table {
   }
   
 
-   
-    .side-nav{
-        display: none;
-    }
+  .link-nav{
+    float: left;
+    background-color: rgb(0, 129, 112);
+    width: 100%;
+    margin-right: 1em;
+    text-align: center;
+    
+}
+.link-nav li{
+    padding-left: 10px;
+    color: white;
+    font-size: 18px;
+    line-height: 2em;
+    display: inline;
+}
+    .link-nav li a{
+        text-decoration: none;
+        color: white;
 
+    }
+.link-nav li a:hover{
+    background-color: #333;
+    padding: 9x;
+}
    
 
 
@@ -155,7 +169,7 @@ table {
         
         width: 100%;
         padding-bottom: 1em;
-        font-size: 18px;
+        font-size: 100%;
     }
   
     .resource-links{
@@ -248,19 +262,28 @@ table {
     text-align: center;
 }
 
-.side-nav{
+.link-nav{
     float: left;
     background-color: rgb(0, 129, 112);
-    height: 900px;
+    width: 100%;
     margin-right: 1em;
+    text-align: center;
     
 }
-.side-nav li{
+.link-nav li{
+    padding-left: 10px;
     color: white;
     font-size: 18px;
     line-height: 2em;
-    border: rgb(59, 59, 59) 1px solid;
-    text-align: center;
-    padding-right: 10px;
+    display: inline;
+}
+    .link-nav li a{
+        text-decoration: none;
+        color: white;
+
+    }
+.link-nav li a:hover{
+    background-color: #333;
+    padding: 9x;
 }
 }
