@@ -72,7 +72,10 @@ table {
     .navbar-container {
      display: none;
     }
-  
+   
+    .side-nav{
+        display: none;
+    }
 
   .title-logo-container{
       z-index: 99;
