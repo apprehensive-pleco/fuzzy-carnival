@@ -4,9 +4,12 @@
 # Copyright (c) Apprehensive-Pleco
 # This Program is to be able to automate the git process such as git add, git commit, and git push.
 
-echo Adding Updates to git
+echo Adding Updates to Git
+read -p "Press [Enter] key to add Git items to the buffer."
 git add .
-echo Committing Changes to git
+read -p "Press [Enter] key to Commit Changes to Git"
+echo Committing Changes to Git
 git commit 
-echo Uploading Changes to git
+read -p "Press [Enter] to upload files to Github"
+echo Uploading Changes to Git
 git push
